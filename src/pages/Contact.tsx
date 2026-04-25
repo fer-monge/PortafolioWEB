@@ -25,7 +25,7 @@ function Contact() {
               {t('contact.description')}
             </p>
           </div>
-
+        </div>
 
         <div className="lg:col-span-7">
           <div className="glass-card p-8 md:p-12 rounded-2xl shadow-2xl relative overflow-hidden">
