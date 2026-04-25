@@ -1,26 +1,12 @@
-import { useState } from 'react';
-import type { FormEvent } from 'react';
 import { useTranslation } from 'react-i18next';
+
 function Contact() {
   const { t } = useTranslation();
 
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-
   const contactEmail = 'jessifermv1302@gmail.com';
-  const linkedInUrl = 'https://www.linkedin.com/in/jessika-monge-v%C3%A1squez-96147a305';
-
- const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
-  event.preventDefault();
-
-  const subject = encodeURIComponent(`Portfolio contact - ${name}`);
-  const body = encodeURIComponent(
-    `Nombre: ${name}\nCorreo: ${email}\n\nMensaje:\n${message}`,
-  );
-
-  window.location.href = `mailto:${contactEmail}?subject=${subject}&body=${body}`;
-};
+  const linkedInUrl =
+    'https://www.linkedin.com/in/jessika-monge-v%C3%A1squez-96147a305';
+  const phoneNumber = '+50672978672';
 
   return (
     <section id="contact" className="py-24 px-6 md:px-12 bg-[#0b1326]">
@@ -40,69 +26,80 @@ function Contact() {
             </p>
           </div>
 
-       
+          <div className="hidden lg:block relative h-56 w-full rounded-xl overflow-hidden glass-card">
+            <div className="absolute inset-0 bg-gradient-to-tr from-[#060e20] via-transparent to-[#00E5FF]/10"></div>
 
-    
+            <div className="absolute bottom-4 left-4 font-code text-sm text-[#00E5FF]/60 select-none">
+              &gt; status: available
+              <br />
+              &gt; location: Costa Rica
+              <br />
+              &gt; ready_for_opportunities: true
+            </div>
+          </div>
         </div>
 
         <div className="lg:col-span-7">
           <div className="glass-card p-8 md:p-12 rounded-2xl shadow-2xl relative overflow-hidden">
             <div className="absolute -top-24 -right-24 w-64 h-64 bg-[#00E5FF]/5 blur-[100px] rounded-full"></div>
 
-   <div className="space-y-6">
-            <a
-              href={`mailto:${contactEmail}`}
-              className="flex items-center gap-4 group"
-            >
-              <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-[#171f33] border border-white/10 text-[#00E5FF] group-hover:bg-[#00E5FF] group-hover:text-[#00363d] transition-all">
-                <span className="material-symbols-outlined">email</span>
-              </div>
+            <div className="space-y-6 relative z-10">
+              <a
+                href={`mailto:${contactEmail}`}
+                className="flex items-center gap-4 group"
+              >
+                <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-[#171f33] border border-white/10 text-[#00E5FF] group-hover:bg-[#00E5FF] group-hover:text-[#00363d] transition-all">
+                  <span className="material-symbols-outlined">email</span>
+                </div>
 
-              <div>
-                <p className="font-heading text-sm text-slate-500 uppercase tracking-widest">
-                  {t('contact.emailLabel')}
-                </p>
-                <p className="font-heading text-xl text-white">
-                  {contactEmail}
-                </p>
-              </div>
-            </a>
+                <div>
+                  <p className="font-heading text-sm text-slate-500 uppercase tracking-widest">
+                    {t('contact.emailLabel')}
+                  </p>
+                  <p className="font-heading text-xl text-white break-all">
+                    {contactEmail}
+                  </p>
+                </div>
+              </a>
 
-            <a
-              href={linkedInUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="flex items-center gap-4 group"
-            >
-              <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-[#171f33] border border-white/10 text-[#00E5FF] group-hover:bg-[#00E5FF] group-hover:text-[#00363d] transition-all">
-                <span className="material-symbols-outlined">link</span>
-              </div>
+              <a
+                href={linkedInUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center gap-4 group"
+              >
+                <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-[#171f33] border border-white/10 text-[#00E5FF] group-hover:bg-[#00E5FF] group-hover:text-[#00363d] transition-all">
+                  <span className="material-symbols-outlined">link</span>
+                </div>
 
-              <div>
-                <p className="font-heading text-sm text-slate-500 uppercase tracking-widest">
-                  {t('contact.linkedinLabel')}
-                </p>
-                <p className="font-heading text-xl text-white">
-                  Jessika Monge Vásquez
-                </p>
-              </div>
+                <div>
+                  <p className="font-heading text-sm text-slate-500 uppercase tracking-widest">
+                    {t('contact.linkedinLabel')}
+                  </p>
+                  <p className="font-heading text-xl text-white">
+                    Jessika Monge Vásquez
+                  </p>
+                </div>
+              </a>
 
-            </a>
-             <a href="tel:+50672978672" className="flex items-center gap-4 group" >
-               <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-[#171f33] border border-white/10 text-[#00E5FF] group-hover:bg-[#00E5FF] group-hover:text-[#00363d] transition-all">
-                <span className="material-symbols-outlined">#</span>
-              </div>
-              <div>
-                <p className='font-heading text-sm text-slate-500 uppercase tracking-widest'>
-                  {t('contact.numberLabel')}
-                </p>
-                <p className="font-heading text-xl text-white">
-                  +506 72978672
-                </p>
-              </div>
-            </a>
-          </div>
-            
+              <a
+                href={`tel:${phoneNumber}`}
+                className="flex items-center gap-4 group"
+              >
+                <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-[#171f33] border border-white/10 text-[#00E5FF] group-hover:bg-[#00E5FF] group-hover:text-[#00363d] transition-all">
+                  <span className="material-symbols-outlined">call</span>
+                </div>
+
+                <div>
+                  <p className="font-heading text-sm text-slate-500 uppercase tracking-widest">
+                    {t('contact.numberLabel')}
+                  </p>
+                  <p className="font-heading text-xl text-white">
+                    +506 7297-8672
+                  </p>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
