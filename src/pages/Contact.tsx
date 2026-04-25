@@ -26,18 +26,6 @@ function Contact() {
             </p>
           </div>
 
-          <div className="hidden lg:block relative h-56 w-full rounded-xl overflow-hidden glass-card">
-            <div className="absolute inset-0 bg-gradient-to-tr from-[#060e20] via-transparent to-[#00E5FF]/10"></div>
-
-            <div className="absolute bottom-4 left-4 font-code text-sm text-[#00E5FF]/60 select-none">
-              &gt; status: available
-              <br />
-              &gt; location: Costa Rica
-              <br />
-              &gt; ready_for_opportunities: true
-            </div>
-          </div>
-        </div>
 
         <div className="lg:col-span-7">
           <div className="glass-card p-8 md:p-12 rounded-2xl shadow-2xl relative overflow-hidden">
