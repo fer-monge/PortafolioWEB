@@ -74,6 +74,7 @@
   "description": "¿Tienes una oportunidad, proyecto o propuesta profesional? Puedes contactarme directamente por correo o mediante mis redes profesionales.",
   "emailLabel": "Correo electrónico",
   "linkedinLabel": "LinkedIn",
+  "numberLabel": "Número de teléfono",
   "formTitle": "Enviar mensaje",
   "name": "Nombre",
   "email": "Correo",
@@ -85,7 +86,7 @@
 },
 "footer": {
   "rights": "Todos los derechos reservados.",
-  "built": "Desarrollado Web",
+  "built": "Desarrolladora de software",
   "github": "GitHub",
   "linkedin": "LinkedIn",
   "email": "Correo"

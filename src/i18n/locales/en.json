@@ -74,6 +74,7 @@
   "description": "Do you have an opportunity, project or professional proposal? You can contact me directly by email or through my professional networks.",
   "emailLabel": "Email",
   "linkedinLabel": "LinkedIn",
+  "numberLabel": "Phone Number",
   "formTitle": "Send a message",
   "name": "Name",
   "email": "Email",
@@ -85,7 +86,7 @@
 },
 "footer": {
   "rights": "All rights reserved.",
-  "built": "Built with React, TypeScript and Tailwind CSS.",
+  "built": "Software developed",
   "github": "GitHub",
   "linkedin": "LinkedIn",
   "email": "Email"
