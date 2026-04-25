@@ -1,0 +1,93 @@
+{
+  "navbar": {
+    "brand": "Jessika Monge",
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "badge": "Available for web development opportunities",
+    "titleStart": "Hello, I'm",
+    "name": "Jessika",
+    "subtitle": "Building functional and scalable web solutions.",
+    "description": "Bachelor in Business Informatics with experience in web development, frontend and backend solutions, databases, REST APIs and collaborative software projects.",
+    "viewProjects": "View Projects",
+    "downloadCv": "Download CV",
+    "code": {
+      "name": "Jessika Monge Vásquez",
+      "role": "Web Developer",
+      "education": "Business Informatics",
+      "focus": "Functional, maintainable and scalable solutions"
+    }
+  },
+  "skills": {
+    "html": "HTML",
+    "css": "CSS",
+    "javascript": "JavaScript",
+    "php": "PHP",
+    "dotnet": "C# / .NET",
+    "sql": "SQL"
+  },
+  "projects": {
+  "label": "Portfolio",
+  "title": "Featured Projects",
+  "description": "A selection of web solutions developed with a focus on functionality, maintainability and requirement fulfillment.",
+  "viewCode": "View code",
+  "viewDemo": "View demo"
+},
+"about": {
+  "label": "About me",
+  "title": "Professional profile",
+  "description": "Bachelor in Business Informatics with experience in web development and digital solutions for both frontend and backend. Focused on building functional, maintainable and scalable solutions that meet project requirements.",
+  "experienceTitle": "Experience",
+  "educationTitle": "Education",
+  "skillsTitle": "Technical skills",
+  "experience": [
+    {
+      "role": "Web Analyst and Developer - Professional Internship",
+      "date": "August 2024 - December 2024",
+      "description": "Participated in the analysis and development of web solutions according to project requirements, supporting information organization, validation and management."
+    },
+    {
+      "role": "Web Analyst and Developer",
+      "date": "August 2023 - July 2024",
+      "description": "Developed and supported web solutions for academic and business needs, using databases, Git and agile methodologies."
+    }
+  ],
+  "education": [
+    {
+      "title": "Bachelor in Business Informatics",
+      "place": "University of Costa Rica",
+      "date": "2019 - 2025"
+    },
+    {
+      "title": "High School Diploma",
+      "place": "Colegio Académico de Orientación Tecnológica Omar Salazar Obando",
+      "date": "2013 - 2017"
+    }
+  ]
+},
+"contact": {
+  "label": "Contact",
+  "title": "Let’s work together",
+  "description": "Do you have an opportunity, project or professional proposal? You can contact me directly by email or through my professional networks.",
+  "emailLabel": "Email",
+  "linkedinLabel": "LinkedIn",
+  "formTitle": "Send a message",
+  "name": "Name",
+  "email": "Email",
+  "message": "Message",
+  "namePlaceholder": "Your name",
+  "emailPlaceholder": "your.email@example.com",
+  "messagePlaceholder": "Write your message...",
+  "send": "Send message"
+},
+"footer": {
+  "rights": "All rights reserved.",
+  "built": "Built with React, TypeScript and Tailwind CSS.",
+  "github": "GitHub",
+  "linkedin": "LinkedIn",
+  "email": "Email"
+}
+}

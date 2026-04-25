@@ -1,0 +1,93 @@
+{
+  "navbar": {
+    "brand": "Jessika Monge",
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "about": "Sobre mí",
+    "contact": "Contacto"
+  },
+  "home": {
+    "badge": "Disponible para oportunidades en desarrollo web",
+    "titleStart": "Hola, soy",
+    "name": "Jessika",
+    "subtitle": "Construyendo soluciones web funcionales y escalables.",
+    "description": "Bachiller en Informática Empresarial con experiencia en desarrollo web, soluciones frontend y backend, bases de datos, APIs REST y proyectos colaborativos de software.",
+    "viewProjects": "Ver proyectos",
+    "downloadCv": "Descargar CV",
+    "code": {
+      "name": "Jessika Monge Vásquez",
+      "role": "Desarrolladora Web",
+      "education": "Informática Empresarial",
+      "focus": "Soluciones funcionales, mantenibles y escalables"
+    }
+  },
+  "skills": {
+    "html": "HTML",
+    "css": "CSS",
+    "javascript": "JavaScript",
+    "php": "PHP",
+    "dotnet": "C# / .NET",
+    "sql": "SQL"
+  },
+  "projects": {
+  "label": "Portafolio",
+  "title": "Proyectos destacados",
+  "description": "Una selección de soluciones web desarrolladas con enfoque en funcionalidad, mantenimiento y cumplimiento de requerimientos.",
+  "viewCode": "Ver código",
+  "viewDemo": "Ver demo"
+},
+"about": {
+  "label": "Sobre mí",
+  "title": "Perfil profesional",
+  "description": "Bachiller en Informática Empresarial con experiencia en desarrollo web y construcción de soluciones digitales tanto en frontend como en backend. Se enfoca en desarrollar soluciones funcionales, mantenibles y escalables, cumpliendo los requerimientos del proyecto.",
+  "experienceTitle": "Experiencia",
+  "educationTitle": "Educación",
+  "skillsTitle": "Habilidades técnicas",
+  "experience": [
+    {
+      "role": "Analista y Desarrolladora Web - Práctica profesional",
+      "date": "Agosto 2024 - Diciembre 2024",
+      "description": "Participó en el análisis y desarrollo de soluciones web según los requerimientos del proyecto, apoyando la organización, validación y gestión de información."
+    },
+    {
+      "role": "Analista y Desarrolladora Web",
+      "date": "Agosto 2023 - Julio 2024",
+      "description": "Desarrolló y apoyó soluciones web para necesidades académicas y empresariales, utilizando bases de datos, Git y metodologías ágiles."
+    }
+  ],
+  "education": [
+    {
+      "title": "Bachiller en Informática Empresarial",
+      "place": "Universidad de Costa Rica",
+      "date": "2019 - 2025"
+    },
+    {
+      "title": "Bachiller en Educación Media",
+      "place": "Colegio Académico de Orientación Tecnológica Omar Salazar Obando",
+      "date": "2013 - 2017"
+    }
+  ]
+},
+"contact": {
+  "label": "Contacto",
+  "title": "Trabajemos juntos",
+  "description": "¿Tienes una oportunidad, proyecto o propuesta profesional? Puedes contactarme directamente por correo o mediante mis redes profesionales.",
+  "emailLabel": "Correo electrónico",
+  "linkedinLabel": "LinkedIn",
+  "formTitle": "Enviar mensaje",
+  "name": "Nombre",
+  "email": "Correo",
+  "message": "Mensaje",
+  "namePlaceholder": "Tu nombre",
+  "emailPlaceholder": "tu.correo@email.com",
+  "messagePlaceholder": "Escribe tu mensaje...",
+  "send": "Enviar mensaje"
+},
+"footer": {
+  "rights": "Todos los derechos reservados.",
+  "built": "Desarrollado Web",
+  "github": "GitHub",
+  "linkedin": "LinkedIn",
+  "email": "Correo"
+}
+}
